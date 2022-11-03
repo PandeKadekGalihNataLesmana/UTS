@@ -1,0 +1,29 @@
+
+
+/* hero */
+
+
+.hero{
+    height: 100vh;
+	background-image: url(../19.jpg) ;
+	background-size: cover;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center; ;   
+}
+
+/* produk */
+.bulat {
+    height: 5rem;
+    width: 5rem;
+    background-color: #ff2600;
+    position: relative;
+}
+
+.bulat i {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
